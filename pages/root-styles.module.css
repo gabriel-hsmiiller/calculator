@@ -1,0 +1,43 @@
+#main {
+    width: 30vw;
+    margin: auto;
+}
+
+.visor {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input {
+    flex: 3;
+    height: 20px;
+    font-size: 20px;
+    padding: 12px 20px;
+}
+
+.result {
+    flex: 1;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 12px;
+}
+
+.buttonItem {
+    width: 100%;
+    padding: 12px;
+    border: solid 1px #606060;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #f6f6f6;
+    color: #2f2f2f;
+}
